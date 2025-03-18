@@ -44,45 +44,22 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
-              <span className="bannerIcon">
-                <FaGithub />
-              </span>
+            <a
+                href="https://www.linkedin.com/in/sachini-madubhashini-a05860279"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bannerIcon"
+            >
+              <FaLinkedinIn/>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
-              <span className="bannerIcon">
-                <FaFacebookF />
-              </span>
+            <a
+                href="https://github.com/sachiniwathudura"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bannerIcon"
+            >
+              <FaGithub/>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
-              <span className="bannerIcon">
-                <FaTwitter />
-              </span>
-            </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
-              <span className="bannerIcon">
-                <FaLinkedinIn />
-              </span>
-            </a>
-          </div>
-        </div>
-        <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILL ON
-          </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
-            </span>
           </div>
         </div>
       </div>

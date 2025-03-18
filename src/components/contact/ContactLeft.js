@@ -25,21 +25,19 @@ const ContactLeft = () => {
           Email: <span className="text-lightText">sachiniwathudura@gmail.com</span>
         </p>
       </div>
-      <div className="flex flex-col gap-4">
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
-        <div className="flex gap-4">
-          <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="bannerIcon">
-            <FaFacebookF/>
-          </a>
-          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="bannerIcon">
-            <FaTwitter/>
-          </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"
-             className="bannerIcon">
-            <FaLinkedinIn/>
-          </a>
+        <div className="flex flex-col gap-4">
+            <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+            <div className="flex gap-4">
+                <a
+                    href="https://www.linkedin.com/in/sachini-madubhashini-a05860279"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bannerIcon"
+                >
+                    <FaLinkedinIn/>
+                </a>
+            </div>
         </div>
-      </div>
     </div>
   );
 }
